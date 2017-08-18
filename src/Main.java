@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * Created by cuibowu on 2017/7/2.
@@ -7,7 +8,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        Solution279 solution279 = new Solution279();
-        int result = solution279.numSquares(13);
+        Solution347 solution347 = new Solution347();
+        String s = "(a)())()";
+        List<String> list = solution347.removeInvalidParentheses(s);
     }
 }
