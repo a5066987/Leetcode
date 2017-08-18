@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by cuibowu on 2017/8/18.
  */
-public class Solution347 {
+public class Solution301 {
     public List<String> removeInvalidParentheses(String s) {
         List<String> ans = new ArrayList<>();
         remove(s, ans, 0, 0, new char[]{'(', ')'});
