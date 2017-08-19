@@ -43,7 +43,7 @@ public class Solution297 {
 
     private TreeNode deserializer(StringTokenizer st){
         String val = st.nextToken();
-        if(val=="$")
+        if(val.equals("$"))
             return null;
         TreeNode root = new TreeNode(Integer.parseInt(val));
         root.left=deserializer(st);
