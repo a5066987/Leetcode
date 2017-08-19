@@ -8,8 +8,13 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        Solution347 solution347 = new Solution347();
-        String s = "(a)())()";
-        List<String> list = solution347.removeInvalidParentheses(s);
+        Solution139 solution139 = new Solution139();
+        String s ="leetcode";
+        List<String> list = new ArrayList<>();
+        list.add("leet");
+        list.add("code");
+        if(solution139.wordBreak(s,list)){
+            System.out.println(1);
+        }
     }
 }
