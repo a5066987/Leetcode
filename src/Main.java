@@ -8,13 +8,8 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        Solution139 solution139 = new Solution139();
-        String s ="leetcode";
-        List<String> list = new ArrayList<>();
-        list.add("leet");
-        list.add("code");
-        if(solution139.wordBreak(s,list)){
+        String s ="aaa";
+        if(s.matches("..."))
             System.out.println(1);
-        }
     }
 }
