@@ -8,16 +8,20 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(3);
-        root.left=new TreeNode(5);
-        root.right=new TreeNode(1);
-        root.left.left = new TreeNode(6);
-        root.left.right=new TreeNode(2);
-        root.left.right.left=new TreeNode(7);
-        root.left.right.right = new TreeNode(4);
-        root.right.left=new TreeNode(0);
-        root.right.right=new TreeNode(8);
-        Solution236 solution236 = new Solution236();
-        TreeNode result = solution236.lowestCommonAncestor(root,root.left.right,root.right);
+        Solution319 solution319 = new Solution319();
+        int a = solution319.bulbSwitch(999);
     }
+        
+        //For 236
+//        TreeNode root = new TreeNode(3);
+//        root.left=new TreeNode(5);
+//        root.right=new TreeNode(1);
+//        root.left.left = new TreeNode(6);
+//        root.left.right=new TreeNode(2);
+//        root.left.right.left=new TreeNode(7);
+//        root.left.right.right = new TreeNode(4);
+//        root.right.left=new TreeNode(0);
+//        root.right.right=new TreeNode(8);
+//        Solution236 solution236 = new Solution236();
+//        TreeNode result = solution236.lowestCommonAncestor(root,root.left.right,root.right);
 }
