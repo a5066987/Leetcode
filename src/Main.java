@@ -8,8 +8,8 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        Solution319 solution319 = new Solution319();
-        int a = solution319.bulbSwitch(999);
+        char[][] input ={{'X','O','X'},{'O','X','O'},{'X','O','X'}};
+        new Solution130().solve(input);
     }
         
         //For 236
