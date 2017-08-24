@@ -1,3 +1,4 @@
+import java.security.PublicKey;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -8,8 +9,16 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        char[][] input ={{'X','O','X'},{'O','X','O'},{'X','O','X'}};
-        new Solution130().solve(input);
+        LRUCache lruCache = new LRUCache(2);
+        lruCache.put(1,1);
+        lruCache.put(2,2);
+        int a =lruCache.get(1);
+        lruCache.put(3,3);
+        int b =lruCache.get(2);
+        lruCache.put(4,4);
+        int c =lruCache.get(1);
+        int d =lruCache.get(3);
+        int e =lruCache.get(4);
     }
         
         //For 236
