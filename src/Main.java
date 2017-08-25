@@ -9,16 +9,8 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        LRUCache lruCache = new LRUCache(2);
-        lruCache.put(1,1);
-        lruCache.put(2,2);
-        int a =lruCache.get(1);
-        lruCache.put(3,3);
-        int b =lruCache.get(2);
-        lruCache.put(4,4);
-        int c =lruCache.get(1);
-        int d =lruCache.get(3);
-        int e =lruCache.get(4);
+        String s = "10";
+        int a = new Solution91().numDecodings(s);
     }
         
         //For 236
