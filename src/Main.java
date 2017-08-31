@@ -9,8 +9,9 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        int[] input ={9,8,7,6,5,4,3,2,1,0};
-        int[] res = new Solution66().plusOne(input);
+        String a ="11";
+        String b ="1";
+        String c = new Solution67().addBinary(a,b);
     }
 
 }
